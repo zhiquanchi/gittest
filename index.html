@@ -1,25 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
-    <style>
-        .h1{
-            text-align: center;
-            display: block;
-        }
-        h2{
-            text-underline-position: auto;
-        }
-    </style>
+<html>
 <head>
-    <!---add something and push test-->>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<script src="//code.jquery.com/jquery-3.6.0.min.js">
+</script>
+<script>
+$(document).ready(function(){
+  $("p").click(function(){
+    $(this).hide();
+  });
+});
+</script>
 </head>
 <body>
-    <h1 class="h1" id = "biaoti">web页面练习作品</h1>
-    <h1 class="h1" id = "biaoti1">web页面练习作品系统</h1>
-    <h2 class="h1" id="biaotih2">二级标题</h2>
+<p>如果您点击我，我会消失。</p>
+<p>点击我，我会消失。</p>
+<p>也要点击我哦。</p>
 </body>
-<a href="mailto:">it's mean</a>
 </html>
